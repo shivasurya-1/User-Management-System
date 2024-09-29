@@ -1,0 +1,206 @@
+/* Center the container vertically and horizontally */
+.auth-container-signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #e0f7fa; /* Light blue background */
+  padding: 20px;
+  position: relative; /* Ensure it's positioned correctly */
+}
+.auth-container-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e0f7fa; /* Light blue background */
+  padding: 20px;
+  position: relative; /* Ensure it's positioned correctly */
+}
+
+/* Styling for the form */
+.auth-form {
+  background-color: #ffffff; /* White background for the form */
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Soft shadow */
+  max-width: 500px; /* Adjusted max-width */
+  width: 100%;
+  text-align: center;
+  margin: 0 auto; /* Center form horizontally */
+}
+
+/* Form Title */
+h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 28px;
+  font-weight: bold;
+  color: #00796b; /* Dark teal for headings */
+}
+
+/* Form input group */
+.input-group {
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+/* Label styles */
+.input-group label {
+  display: block;
+  font-size: 15px;
+  margin-bottom: 0.5rem;
+  color: #00695c; /* Teal color for labels */
+  font-weight: bold;
+}
+
+/* Input fields */
+.input-group input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #b2dfdb; /* Light teal border */
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.input-group input:focus {
+  border-color: #00796b; /* Darker teal when focused */
+}
+
+/* Button styling */
+.auth-btn {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #00796b; /* Teal background */
+  border: none;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.auth-btn:hover {
+  background-color: #004d40; /* Darker teal on hover */
+}
+
+/* Link to signup or login */
+.auth-link {
+  text-align: center;
+  margin-top: 1.5rem;
+  font-size: 14px;
+  color: #00796b;
+}
+
+.auth-link a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #004d40; /* Dark teal for links */
+}
+
+/* Profile picture preview */
+.profile-preview {
+  margin-top: 1rem;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow around the image */
+}
+
+h2 {
+  font-size: 24px;
+}
+
+.auth-btn {
+  font-size: 16px;
+}
+
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #e0f7fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Home and Tasks Styles */
+h1 {
+  margin: 20px 0;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Top Navigation Styles */
+nav {
+  background-color: #007bff; /* A brighter blue for better visibility */
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+
+  justify-content: space-between; /* Space between items */
+  align-items: center; /* Center items vertically */
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 15px;
+  padding: 10px;
+  border-radius: 4px; /* Rounded corners for the links */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+nav a:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Light hover effect */
+  color: #ffffff; /* Keep text color white on hover */
+}
+
+nav .nav-links {
+  display: flex; /* Flexbox to arrange links */
+  width: 100%; /* Take the full width of the nav */
+  justify-content: space-around; /* Evenly distribute the links */
+}
+
+/* Delete Button Styles */
+.delete-btn {
+  background-color: #dc3545; /* Bootstrap's danger color */
+  color: #ffffff; /* White text */
+  padding: 10px 15px; /* Padding for button */
+  border: none; /* Remove default border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+  font-size: 1em; /* Font size */
+}
+
+.delete-btn:hover {
+  background-color: #c82333; /* Darker red on hover */
+  transform: scale(1.05); /* Slightly increase size on hover */
+}
+
+.delete-btn:active {
+  transform: scale(0.95); /* Slightly decrease size on click */
+}
+.delete-btn-container {
+  display: flex;
+  margin-left: 45vw; /* Space between content and button */
+  align-self: flex-end; /* Align the button to the right */
+}
